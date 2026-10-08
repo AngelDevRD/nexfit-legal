@@ -54,7 +54,7 @@ Los datos que cargás (rutinas, entrenamientos, notas, ejercicios propios, etc.)
 son tuyos. Los usamos únicamente para darte el servicio de la app: guardarlos,
 sincronizarlos, y —cuando vos lo pedís explícitamente— enviar un resumen al
 Coach IA para generar una respuesta. Ver la Política de privacidad
-(`docs/legal/PRIVACIDAD.md`) para el detalle completo.
+([PRIVACIDAD.html](https://angeldevrd.github.io/nexfit-legal/PRIVACIDAD.html)) para el detalle completo.
 
 El catálogo base de ejercicios y su animación asociada pertenecen a sus
 respectivos titulares (ver la atribución dentro de la app, en cada ejercicio

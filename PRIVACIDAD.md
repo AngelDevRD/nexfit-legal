@@ -12,7 +12,8 @@ lenguaje simple de qué datos recoge la app, dónde viven y qué hacés vos con 
   nuestro servidor (Supabase) para que no la pierdas si cambiás de dispositivo.
 - **No hay analíticas, no hay publicidad y no hay rastreadores de terceros en la
   app.** No vendemos ni compartimos tus datos con nadie con fines comerciales.
-- Los datos que lee de Health Connect (pasos, ritmo cardíaco, calorías, sueño)
+- Los datos que lee de Health Connect o de Apple Salud (pasos, ritmo cardíaco,
+  calorías, sueño)
   **nunca salen de tu teléfono**.
 - Podés exportar todos tus datos o borrar tu cuenta por completo desde la propia
   app, en cualquier momento.
@@ -60,11 +61,12 @@ poder cerrar la app a mitad de una serie sin perderla) y una cola interna de
 cambios pendientes de subir. Ninguno de estos dos se sincroniza con la nube tal
 cual: se usan y se descartan localmente.
 
-### 1.5 Health Connect (Android) / datos de wearables
+### 1.5 Health Connect (Android), Apple Salud (iOS) / datos de wearables
 
-Si le das permiso, la app **lee** de Health Connect: pasos, ritmo cardíaco,
-calorías activas quemadas y horas de sueño. Es una lectura de **solo lectura**:
-la app nunca escribe en Health Connect. Estos datos se muestran en la pantalla
+Si le das permiso, la app **lee** de Health Connect (Android) o de Apple Salud
+(iOS): pasos, ritmo cardíaco, calorías activas quemadas y horas de sueño. Es
+una lectura de **solo lectura**: la app nunca escribe en Health Connect ni en
+Apple Salud. Estos datos se muestran en la pantalla
 "Wearables" y **no se guardan en ninguna base de datos, ni local ni remota, ni
 se envían a ningún servidor**: se leen, se muestran, y se descartan al cerrar la
 pantalla.
@@ -140,7 +142,7 @@ acá, no es una promesa genérica:
 ## 5. Menores de edad
 
 NexFit no está dirigida a menores de 13 años. Ver los Términos de uso
-(`docs/legal/TERMINOS.md`) para la edad mínima aplicable.
+([TERMINOS.html](https://angeldevrd.github.io/nexfit-legal/TERMINOS.html)) para la edad mínima aplicable.
 
 ## 6. Cambios a esta política
 
